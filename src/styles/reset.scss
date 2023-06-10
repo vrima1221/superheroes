@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+div,
+h1,
+h2,
+h3,
+a,
+li,
+ul,
+img,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  text-transform: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+input:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+}

@@ -1,0 +1,91 @@
+.profile {
+  width: 100%;
+
+  &__title {
+    margin-bottom: 8px;
+  }
+
+  &__real-name {
+    margin-bottom: 16px;
+  }
+
+  &__avatar {
+    margin-bottom: 16px;
+  }
+
+  &__avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  &__gallery {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 100%;
+
+    &-image {
+      border-radius: 4px;
+      border: 1px solid black;
+      
+      &--container {
+        display: flex;
+        justify-content: center;  
+        position: relative;
+        width: 250px;
+        height: 180px;
+        border: 2px solid #e3e3e3;
+      }
+    }
+  }
+}
+
+.button {
+  &--remove {
+    position: absolute;
+    top: 0;
+    right: 0;
+  
+    background-color: #e3e3e3;
+    padding: 4px;
+    border-radius: 4px;
+    color: black;
+  }
+
+  &--submit {
+    background-color: black;
+    padding: 4px;
+    border-radius: 4px;
+    color: #fff;
+  }
+}
+
+.separator {
+  background-color: #e3e3e3;
+  height: 1px;
+}
+
+.section {
+  margin-bottom: 8px;
+
+  &__title {
+    margin-bottom: 8px;
+  }
+  
+}
+
+.textarea {
+  height: 100px;
+  width: 40%;
+}
+
+.edit-button {
+  float: right;
+  padding: 8px;
+  background-color: black;
+  color: #fff;
+  border-radius: 8px;
+}

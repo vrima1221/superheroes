@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 80%;
+
+  &__title {
+    margin-bottom: 32px;
+  }
+
+  &__button {
+    padding: 8px;
+    border-radius: 4px;
+
+    background-color: black;
+    color: #fff;
+  }
+
+  &__input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-bottom: 8px;
+  }
+
+  &__input-field {
+    border: 1px solid #E3E3E3;
+  }
+}
