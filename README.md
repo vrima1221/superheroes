@@ -1,9 +1,4 @@
-# React TypeScript Starter Pack
+# [Superheroes]('https://vrima1221.github.io/superheroes/)
 
-To use this template click `Use this template`
+To use client run thi [API]('https://github.com/vrima1221/superheroesAPI') localy on port 5000
 
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
