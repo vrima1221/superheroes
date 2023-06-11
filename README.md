@@ -1,4 +1,4 @@
-# [Superheroes](https://vrima1221.github.io/superheroes/)
+# [Superheroes DEMO](https://vrima1221.github.io/superheroes/)
 
 To use client run this [API](https://github.com/vrima1221/superheroesAPI) localy on port 5000
 
